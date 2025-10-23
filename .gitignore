@@ -1,0 +1,39 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.toc
+*.out
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.nav
+*.snm
+*.vrb
+*.idx
+*.ilg
+*.ind
+
+# PDFs and intermediate output
+*.pdf
+*.ps
+*.dvi
+
+# macOS
+.DS_Store
+
+# Editor directories
+.vscode/
+.idea/
+
+# Temporary files
+*~
+# Emacs
+.#*
+
+# Build folders
+/build/
+/out/

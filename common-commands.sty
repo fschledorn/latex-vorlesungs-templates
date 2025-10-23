@@ -1,0 +1,34 @@
+% common-commands.sty
+% Centralized command definitions shared across all latex-vorlesungs-templates classes
+% Version 1.0 - 2025-10-24
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{common-commands}[2025/10/24 v1.0 Common commands for lecture templates]
+
+% --- Standardized mathematical macros ---
+% These are available in all classes that load this package
+
+% Number sets
+\providecommand{\R}{\ensuremath{\mathbb{R}}}
+\providecommand{\N}{\ensuremath{\mathbb{N}}}
+\providecommand{\C}{\ensuremath{\mathbb{C}}}
+\providecommand{\Z}{\ensuremath{\mathbb{Z}}}
+\providecommand{\Q}{\ensuremath{\mathbb{Q}}}
+
+% Set notation
+\providecommand{\set}[1]{\ensuremath{\{#1\}}}
+
+% Linear algebra and analysis
+\providecommand{\spa}{\ensuremath{\operatorname{span}}}
+\providecommand{\scalprod}[2]{\ensuremath{\langle #1,\, #2 \rangle}}
+\providecommand{\abs}[1]{\ensuremath{\left\lvert #1 \right\rvert}}
+\providecommand{\norm}[1]{\ensuremath{\left\lVert #1 \right\rVert}}
+
+% Complexity and algorithms
+\providecommand{\BigO}{\ensuremath{\mathcal{O}}}
+
+% Automata and formal languages (CS)
+\providecommand{\Sig}{\ensuremath{\Sigma}}
+\providecommand{\Sigs}{\ensuremath{\Sigma^*}}
+
+\endinput
