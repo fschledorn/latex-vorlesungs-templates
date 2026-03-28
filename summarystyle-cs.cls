@@ -36,6 +36,7 @@
 
 % Theorem-like envs (more example-focused)
 \RequirePackage{amsthm}
+\RequirePackage{thmtools}
 \declaretheorem[style=definition, name=Definition, within=chapter]{definition}
 \declaretheorem[style=definition, name=Theorem, sibling=definition]{theorem}
 \declaretheorem[style=definition, name=Lemma, sibling=definition]{lemma}
